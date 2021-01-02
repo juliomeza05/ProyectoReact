@@ -4,8 +4,8 @@
   "description": "API",
   "main": "index.js",
   "scripts": {
-    "start": "nodo .",
-    "dev": "nodemon ."
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "Julio alfonso",
   "license": "ISC",
