@@ -22,7 +22,7 @@ app.use(function(req, res, next) {
 app.use(express.json({ extended : true }));
 
 //puerto de la APP
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 3000;
 
 //importar rutas
 app.use('/api/usuarios',require('./Routes/usuarios'));
