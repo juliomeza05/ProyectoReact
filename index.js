@@ -23,7 +23,6 @@ app.use('/api/auth',require('./Routes/auth'));
 app.use('/api/Proyectos',require('./Routes/proyectos'));
 app.use('/api/Tareas',require('./Routes/Tareas'));
 
-
 //arrancar la APP
 app.listen(port,'0.0.0.0',() =>{
     console.log(`El servidor esta funcionando en el puerto ${port}`);   
