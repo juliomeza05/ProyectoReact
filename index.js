@@ -18,10 +18,10 @@ app.use(express.json({ extended : true }));
 const port = process.env.PORT || 4000;
 
 //importar rutas
-app.use('/api/usuarios',require('/Routes/usuarios'));
-app.use('/api/auth',require('/Routes/auth'));
-app.use('/api/Proyectos',require('/Routes/proyectos'));
-app.use('/api/Tareas',require('/Routes/Tareas'));
+app.use('/api/usuarios',require('./Routes/usuarios'));
+app.use('/api/auth',require('./Routes/auth'));
+app.use('/api/Proyectos',require('./Routes/proyectos'));
+app.use('/api/Tareas',require('./Routes/Tareas'));
 
 
 //arrancar la APP
